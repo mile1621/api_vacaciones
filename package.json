@@ -1,0 +1,21 @@
+{
+  "name": "api-vacaciones-postgres",
+  "version": "1.0.0",
+  "description": "API REST Vacaciones (Node.js + Express + PostgreSQL)",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node src/server.js",
+    "init:db": "node scripts/init-db.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "pg": "^8.11.3",
+    "dotenv": "^16.4.5",
+    "dayjs": "^1.11.13",
+    "joi": "^17.13.3",
+    "morgan": "^1.10.0",
+    "cors": "^2.8.5",
+    "helmet": "^7.1.0"
+  }
+}
